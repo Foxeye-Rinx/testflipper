@@ -17,6 +17,16 @@ export default {
       "ios": {
         "supportsTablet": true
       },
+      "plugins": [
+        [
+          "expo-build-properties",
+          {
+            "ios": {
+              "flipper": true
+            }
+          }
+        ]
+      ],
       "android": {
         package: "com.test.flipper",
         versionCode: 1,
