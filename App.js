@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-const apiUrl = Constants.expoConfig.extra.apiUrl;
+const apiUrl = "asdasd"
 
 export default function App() {
   return (
